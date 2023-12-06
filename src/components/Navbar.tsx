@@ -76,7 +76,7 @@ export default function Navbar() {
         <div className="relative">
           <BsBell />
           <span className="absolute bottom-2 left-2 text-xs bg-red-600 rounded-full px-1">
-            9+
+            12+
           </span>
         </div>
        <BsYoutube className="text-3xl text-red-600" />
