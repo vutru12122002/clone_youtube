@@ -22,7 +22,7 @@ export default function Sidebar() {
   const mainLinks = [
     {
       icon: <MdHomeFilled className="text-xl" />,
-      name: "Home",
+      name: "Trang chủ",
     },
     {
       icon: <FaRegCompass className="text-xl" />,
@@ -34,68 +34,68 @@ export default function Sidebar() {
     },
     {
       icon: <MdSubscriptions className="text-xl" />,
-      name: "Subscriptions",
+      name: "Kênh đăng ký",
     },
   ];
 
   const secondaryLinks = [
     {
       icon: <MdOutlineVideoLibrary className="text-xl" />,
-      name: "Library",
+      name: "Thư viện của bạn",
     },
     {
       icon: <MdHistory className="text-xl" />,
-      name: "History",
+      name: "Video đã xem",
     },
     {
       icon: <MdOutlineSmartDisplay className="text-xl" />,
-      name: "Your Videos",
+      name: "Video của bạn",
     },
     {
       icon: <MdOutlineWatchLater className="text-xl" />,
-      name: "Watch Later",
+      name: "Xem sau",
     },
     {
       icon: <MdThumbUpOffAlt className="text-xl" />,
-      name: "Liked Videos",
+      name: "Video đã thích",
     },
   ];
 
   const subscriptionLinks = [
     {
       icon: <TbMusic className="text-xl" />,
-      name: "Music",
+      name: "Âm nhạc",
     },
     {
       icon: <MdOutlineSportsVolleyball className="text-xl" />,
-      name: "Sport",
+      name: "Thể thao",
     },
     {
       icon: <TbDeviceGamepad2 className="text-xl" />,
-      name: "Gaming",
+      name: "Trò chơi",
     },
     {
       icon: <GiFilmStrip className="text-xl" />,
-      name: "Films",
+      name: "Phim",
     },
   ];
 
   const helpLinks = [
     {
       icon: <MdSettings className="text-xl" />,
-      name: "Settings",
+      name: "Cài đặt",
     },
     {
       icon: <MdOutlinedFlag className="text-xl" />,
-      name: "Report history",
+      name: "Nhật ký báo cáo",
     },
     {
       icon: <MdOutlineHelpOutline className="text-xl" />,
-      name: "Help",
+      name: "Trợ giúp",
     },
     {
       icon: <MdOutlineFeedback className="text-xl" />,
-      name: "Send feedback",
+      name: "Gửi ý kiến phản hồi",
     },
   ];
 
