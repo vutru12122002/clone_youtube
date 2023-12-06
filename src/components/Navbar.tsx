@@ -31,7 +31,7 @@ export default function Navbar() {
         <Link to="/">
           <div className="flex gap-1 items-center justify-center">
             <BsYoutube className="text-3xl text-red-600" />
-            <span className="text-xl font-medium">YouTube Clone By Tiến</span>
+            <span className="text-xl font-medium">YouTube Clone By Trần Minh Tiến</span>
           </div>
         </Link>
       </div>
@@ -79,11 +79,7 @@ export default function Navbar() {
             9+
           </span>
         </div>
-        <img
-          src="https://yt3.ggpht.com/wgnEbc2Ec2JYkeyzUbiHzDlAFObI2Btwo2YRCEF1aCMBiRc5E_zWy8-URBQS3EMQ1yzzaGFR=s88-c-k-c0x00ffffff-no-rj-mo"
-          className="w-9 h-9 rounded-full"
-          alt="logo"
-        />
+       <BsYoutube className="text-3xl text-red-600" />
       </div>
     </div>
   );
