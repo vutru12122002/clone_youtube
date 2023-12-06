@@ -101,20 +101,20 @@ export default function Sidebar() {
 
   const textLinks = [
     [
-      "About",
-      "Press",
-      "Copyright",
-      "Contact us",
-      "Creator",
-      "Advertise",
-      "Developers",
+      "Giới thiệu",
+      "Báo chí",
+      "Bản quyền",
+      "Liên hệ với chúng tối",
+      "Người sáng tạo",
+      "Quảng cáo",
+      "Nhà phát triển",
     ],
     [
-      "Terms",
-      "Privacy",
-      "Policy & Safety",
-      "How YouTube works",
-      "Test new features",
+      "Điều khoản",
+      "Quyền riêng tư",
+      "Chính sách và an toàn",
+      "Cách Youtube hoạt động",
+      "Thử các tính năng mới",
     ],
   ];
 
@@ -183,10 +183,10 @@ export default function Sidebar() {
           return <li key={name}>{name}</li>;
         })}
       </ul>
-      <span className="px-4 text-sm text-zinc-400">&copy; 2022 Google</span>
+      <span className="px-4 text-sm text-zinc-400">&copy; 2023 Google</span>
       <br />
       <p className="px-4 pt-3 text-sm text-zinc-400">
-        This clone is for educational purpose only.
+        Clone by Trần Minh Tiến
       </p>
     </div>
   );
